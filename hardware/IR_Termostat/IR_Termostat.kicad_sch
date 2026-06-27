@@ -3587,12 +3587,6 @@
 		(uuid "120e2b09-f4e2-480e-a88e-5f24cb5862dc")
 	)
 	(junction
-		(at 267.97 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ca91d6c-2cd4-492e-b2ca-8222cbb0f05b")
-	)
-	(junction
 		(at 134.62 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3665,12 +3659,6 @@
 		(uuid "92cb5b81-8581-498b-ada7-419beb3fdb75")
 	)
 	(junction
-		(at 262.89 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "937bc24a-5dca-4be6-b742-bdedaf282c07")
-	)
-	(junction
 		(at 44.45 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3717,6 +3705,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6dc6fec-189f-4f38-9e26-de6165903c29")
+	)
+	(junction
+		(at 273.05 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e390c536-7946-4512-afe5-581162999e5f")
 	)
 	(junction
 		(at 173.99 55.88)
@@ -3851,6 +3845,16 @@
 			(type default)
 		)
 		(uuid "2aee49c9-72f4-4521-8a4d-34fd2e25e53e")
+	)
+	(wire
+		(pts
+			(xy 273.05 44.45) (xy 275.59 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca1786f-ce43-4b40-a55c-c1a9e7ba03cc")
 	)
 	(wire
 		(pts
@@ -4004,6 +4008,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 41.91) (xy 273.05 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "460157ce-dc19-42d0-96ec-84e82c161a14")
+	)
+	(wire
+		(pts
 			(xy 238.76 44.45) (xy 252.73 44.45)
 		)
 		(stroke
@@ -4144,7 +4158,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 44.45) (xy 275.59 44.45)
+			(xy 267.97 44.45) (xy 273.05 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4594,16 +4608,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 44.45) (xy 267.97 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d285fe1f-ad3e-40c8-90c4-8d57ced588a9")
-	)
-	(wire
-		(pts
 			(xy 275.59 44.45) (xy 275.59 48.26)
 		)
 		(stroke
@@ -5003,7 +5007,7 @@
 			)
 		)
 		(property "Value" "TP4056-42-ESOP8"
-			(at 272.034 41.402 0)
+			(at 262.128 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,6 +6515,72 @@
 			(project ""
 				(path "/2f75bfd1-14b3-4bd7-8351-dce181eee92d"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 273.05 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b62debef-671a-4cb5-980c-15fdad759b51")
+		(property "Reference" "#PWR015"
+			(at 273.05 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 273.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 273.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e34f23af-577a-44a4-a51d-2aee25a1bcdd")
+		)
+		(instances
+			(project "IR_Termostat"
+				(path "/2f75bfd1-14b3-4bd7-8351-dce181eee92d"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
