@@ -5370,6 +5370,12 @@
 		(uuid "28bc7b23-ff96-43ac-8c8c-2ef879ccfbda")
 	)
 	(junction
+		(at 44.45 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "299b3c77-f131-4d92-b313-288c5ad3bb15")
+	)
+	(junction
 		(at 134.62 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5464,12 +5470,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1e36f6b-9834-49fd-b5eb-a7acc8d33833")
-	)
-	(junction
-		(at 44.45 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a44d2c18-152a-433c-9478-75d06de068a1")
 	)
 	(junction
 		(at 148.59 53.34)
@@ -5623,7 +5623,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 120.65) (xy 44.45 121.92)
+			(xy 44.45 119.38) (xy 44.45 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5653,7 +5653,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 121.92) (xy 16.51 138.43)
+			(xy 16.51 120.65) (xy 16.51 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5720,6 +5720,16 @@
 			(type default)
 		)
 		(uuid "2120436e-59ed-41ad-a1e8-609e8607ccd2")
+	)
+	(wire
+		(pts
+			(xy 44.45 129.54) (xy 44.45 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2142cea4-4446-4e0c-b8a3-f8c2e1f0105a")
 	)
 	(wire
 		(pts
@@ -5890,16 +5900,6 @@
 			(type default)
 		)
 		(uuid "403053ae-6694-4c6c-aab7-094faa537652")
-	)
-	(wire
-		(pts
-			(xy 44.45 121.92) (xy 44.45 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "417018e8-2f7e-48a7-9409-9262b68324df")
 	)
 	(wire
 		(pts
@@ -6173,7 +6173,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 121.92) (xy 44.45 121.92)
+			(xy 16.51 120.65) (xy 44.45 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6310,6 +6310,16 @@
 			(type default)
 		)
 		(uuid "7c227249-2a91-47f1-af45-9c7968e6de95")
+	)
+	(wire
+		(pts
+			(xy 44.45 120.65) (xy 44.45 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db1a971-bbe2-49a4-b2ca-19931966e52f")
 	)
 	(wire
 		(pts
@@ -7459,7 +7469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MLX90614ESF-BAA-000-TU:TO254P942H425-4"
+		(property "Footprint" "Library:TO254P942H425-4"
 			(at 267.208 112.268 0)
 			(effects
 				(font
@@ -7770,7 +7780,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS14")
-		(at 44.45 127 90)
+		(at 44.45 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7778,7 +7788,7 @@
 		(dnp no)
 		(uuid "0c04ca61-c8b9-4542-8a33-79fed254d019")
 		(property "Reference" "D1"
-			(at 40.132 124.206 90)
+			(at 40.132 122.936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7787,7 +7797,7 @@
 			)
 		)
 		(property "Value" "SSL14"
-			(at 36.576 127.508 90)
+			(at 36.576 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7796,7 +7806,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 48.895 127 0)
+			(at 48.895 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7805,7 +7815,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 44.45 127 0)
+			(at 44.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7814,7 +7824,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 44.45 127 0)
+			(at 44.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9510,7 +9520,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "DM-OLED096-636:MODULE_DM-OLED096-636"
+		(property "Footprint" "Library:MODULE_DM-OLED096-636"
 			(at 265.43 146.05 0)
 			(effects
 				(font
@@ -10485,7 +10495,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 44.45 120.65 0)
+		(at 44.45 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10494,7 +10504,7 @@
 		(fields_autoplaced yes)
 		(uuid "98a8886a-eb92-4f0a-9e60-1043b6990814")
 		(property "Reference" "#PWR06"
-			(at 44.45 124.46 0)
+			(at 44.45 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10503,7 +10513,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 44.45 115.57 0)
+			(at 44.45 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10511,7 +10521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 120.65 0)
+			(at 44.45 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10520,7 +10530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 120.65 0)
+			(at 44.45 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10529,7 +10539,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 44.45 120.65 0)
+			(at 44.45 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
