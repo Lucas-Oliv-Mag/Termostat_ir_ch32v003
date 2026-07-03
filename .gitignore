@@ -1,0 +1,20 @@
+# ===== VSCode =====
+.vscode/
+*.code-workspace
+
+# ===== Compilation Artifacts =====
+*.o
+*.obj
+*.out
+*.exe
+*.elf
+*.hex
+*.bin
+*.map
+*.d
+*.a
+*.so
+*.dll
+*.dylib
+*.log
+*.tmp
