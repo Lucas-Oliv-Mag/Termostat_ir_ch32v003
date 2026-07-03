@@ -1,0 +1,12 @@
+Plotted to 'H:\Meu Drive\WorkStation\Embarcados\Projetos\IR Termostat\hardware\pcb\IR_Termostat-F_Cu.gbr'.
+Plotted to 'H:\Meu Drive\WorkStation\Embarcados\Projetos\IR Termostat\hardware\pcb\IR_Termostat-B_Cu.gbr'.
+Plotted to 'H:\Meu Drive\WorkStation\Embarcados\Projetos\IR Termostat\hardware\pcb\IR_Termostat-F_Paste.gbr'.
+Plotted to 'H:\Meu Drive\WorkStation\Embarcados\Projetos\IR Termostat\hardware\pcb\IR_Termostat-B_Paste.gbr'.
+Plotted to 'H:\Meu Drive\WorkStation\Embarcados\Projetos\IR Termostat\hardware\pcb\IR_Termostat-F_Silkscreen.gbr'.
+Plotted to 'H:\Meu Drive\WorkStation\Embarcados\Projetos\IR Termostat\hardware\pcb\IR_Termostat-B_Silkscreen.gbr'.
+Plotted to 'H:\Meu Drive\WorkStation\Embarcados\Projetos\IR Termostat\hardware\pcb\IR_Termostat-F_Mask.gbr'.
+Plotted to 'H:\Meu Drive\WorkStation\Embarcados\Projetos\IR Termostat\hardware\pcb\IR_Termostat-B_Mask.gbr'.
+Plotted to 'H:\Meu Drive\WorkStation\Embarcados\Projetos\IR Termostat\hardware\pcb\IR_Termostat-Edge_Cuts.gbr'.
+Created Gerber job file 'H:\Meu Drive\WorkStation\Embarcados\Projetos\IR Termostat\hardware\pcb\IR_Termostat-job.gbrjob'.
+Informação: Done.
+Informação: Done.
