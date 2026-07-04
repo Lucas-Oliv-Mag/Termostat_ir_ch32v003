@@ -8494,7 +8494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C154510.pdf?spm=wm.sxq.inf.ggs___wm.gwc.xh.5.tp&lcsc_vid=T1hcV1dSQQAMVlIFRlcIAlYAQQRYXwZXT1laU1RWFlQxVlNeRFBdXlFfQlFfUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 26.67 128.27 0)
 			(effects
 				(font
@@ -8776,7 +8776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C490604.pdf?spm=wm.sxq.inf.ggs___wm.gwc.xh.0.tp&lcsc_vid=T1hcV1dSQQAMVlIFRlcIAlYAQQRYXwZXT1laU1RWFlQxVlNeRFBdXlFfQlFfUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 266.7 120.65 0)
 			(effects
 				(font
@@ -10441,7 +10441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C79928.pdf?spm=wm.sxq.inf.ggs___wm.gwc.xh.9.tp&lcsc_vid=T1hcV1dSQQAMVlIFRlcIAlYAQQRYXwZXT1laU1RWFlQxVlNeRFBdXlFfQlFfUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 165.1 54.61 0)
 			(effects
 				(font
@@ -11147,7 +11147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a05.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a02.pdf?ts=1783134422574&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS7A02%252Fpart-details%252FTPS7A0233PYCHR"
 			(at 59.69 120.65 0)
 			(effects
 				(font
@@ -12271,7 +12271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2827694.pdf?spm=wm.sxq.inf.ggs___wm.gwc.xh.4.tp&lcsc_vid=T1hcV1dSQQAMVlIFRlcIAlYAQQRYXwZXT1laU1RWFlQxVlNeRFBdXlFfQlFfUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 72.39 57.15 0)
 			(effects
 				(font

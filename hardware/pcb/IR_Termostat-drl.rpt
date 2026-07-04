@@ -1,0 +1,30 @@
+Drill report for IR_Termostat.kicad_pcb
+Created on 2026-07-04T15:11:04-0300
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'IR_Termostat-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,300mm  0,0118"  (27 holes)
+    T2  0,300mm  0,0118"  (12 holes)
+    T3  0,600mm  0,0236"  (4 holes)  (with 4 slots)
+    T4  0,690mm  0,0272"  (4 holes)
+    T5  0,750mm  0,0295"  (2 holes)
+    T6  0,800mm  0,0315"  (2 holes)
+    T7  1,000mm  0,0394"  (7 holes)
+    T8  1,100mm  0,0433"  (4 holes)
+    T9  2,000mm  0,0787"  (4 holes)
+
+    Total plated holes count 66
+
+
+Drill file 'IR_Termostat-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
