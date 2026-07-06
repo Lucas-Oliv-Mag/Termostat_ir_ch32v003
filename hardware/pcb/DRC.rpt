@@ -1,7 +1,19 @@
 ** Drc report for IR_Termostat.kicad_pcb **
-** Created on 2026-07-04T15:20:51-0300 **
+** Created on 2026-07-05T22:09:55-0300 **
 
-** Found 0 DRC violations **
+** Found 4 DRC violations **
+[lib_footprint_mismatch]: O footprint 'SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias' não bate com a cópia existente na biblioteca 'Package_SO'.
+    Substituição local; warning
+    @(144,3000 mm, 128,3000 mm): Footprint U1
+[lib_footprint_mismatch]: O footprint 'SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias' não bate com a cópia existente na biblioteca 'Package_SO'.
+    Substituição local; warning
+    @(163,3500 mm, 122,0000 mm): Footprint U3
+[lib_footprint_mismatch]: O footprint 'R_LDR_5.1x4.3mm_P3.4mm_Vertical' não bate com a cópia existente na biblioteca 'OptoDevice'.
+    Substituição local; warning
+    @(163,4000 mm, 103,5000 mm): Footprint LDR1
+[lib_footprint_mismatch]: O footprint 'USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal' não bate com a cópia existente na biblioteca 'Connector_USB'.
+    Substituição local; warning
+    @(153,5200 mm, 130,5800 mm): Footprint J1
 
 ** Found 0 unconnected pads **
 
